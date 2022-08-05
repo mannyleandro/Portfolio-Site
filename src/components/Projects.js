@@ -9,99 +9,15 @@ export default function Projects({info, title, image}){
                 <ProjectCards 
                     title = "My Portfolio"
                     image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
+                    info = "I am extremely proud of my portfolio website. Written using React, focusing on state and props, to sell myself to those looking to hire. "
+                    live = "#home"
                 />
                 <ProjectCards 
-                    title = "My Portfolio"
+                    title = "Cakes by Murr"
                     image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
+                    info = "Cakes by Murr is a page used to sell a service/product. Mainly created using React, I implemented creative ideas provided to me by my client to create the website they desired for their buisness "
                 />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "My Portfolio"
-                    image = {portfolioImg}
-                    info = "I am extremely proud of my portfolio website. Written using React, focusing on "
-                />
-                <ProjectCards 
-                    title = "hello"
-                    image = "Project Image"
-                    info = "Project Info"
-                />
-
-                <ProjectCards 
-                    title = "Project Title"
-                    image = "Project Image"
-                    info = "Project Info"
-                />
+                 
             </div>
         </div>
     )

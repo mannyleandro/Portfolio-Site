@@ -96,8 +96,8 @@ grid-template-columns: 1fr;
 
   grid-template-areas: 
                 "t t"
-                "info pik"
-                "pic in";
+                "in pik"
+                "pic info";
 }
 
 .aboutMe--title{
@@ -173,13 +173,15 @@ grid-template-columns: 1fr;
 }
 .projectContainer{
   background-color: rgb(0, 187, 255);
-  padding:50px 0 50px 0;
+  padding:50px 0 65px 0;
+
 
 }
 .projectSectionTitle{
-  color: black;
+  color: white;
   text-align: center;
   margin: 0 auto;
+  padding:30px 0 20px 0;
 }
 
 .projectList{
@@ -188,12 +190,13 @@ grid-template-columns: 1fr;
   gap: 50px;
   justify-content: center;
   overflow: scroll;
+
 }
 .projectCard{
-  border-radius: 3px;
+  border-radius: 15px 15px 15px 15px;
   background-color: rgba(173, 216, 230, 0.443);
   width: 300px;
-  height: 400px;
+  height: 415px;
 }
 
 .portfolioSsImage{
@@ -203,13 +206,30 @@ grid-template-columns: 1fr;
 }
 
 .projectTitle{
-  color: black;
+  color: white;
   text-align: center;
 }
 
 .projectInfo{
-  color: black;
+  color: white;
   text-align: center;
+}
+
+.liveButton, .sourceButton{
+  color: white;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top:10px;
+}
+
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
 }
 
 @keyframes slidein {
