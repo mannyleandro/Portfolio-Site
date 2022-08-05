@@ -1,13 +1,224 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  background-color: white;
+}
+*{
+  color: white;
+  /* border:2px red solid;   */
+
+}
+a{
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  margin:0;
+}
+.home-container{
+  background-image: url("./images/FloatingColors.png");
+  background-color:  hsl(205, 100%, 45%);
+  background-size: 160vh auto ;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.home--main{
+  display: flex;
+  padding-top:55px;
+}
+/* .home--main *{ */
+  /* border:2px red solid;  */
+/* } */
+
+.home--name{
+  margin-left: 60px;
+  height: 100px;
+  margin-top:151px;
+  text-align: center;
+  font-size: 44px;
+}
+
+.home--image{
+  
+  width:520px;
+  
+}
+
+.home--jobDesc{
+  padding-left: 80px;
+  height:30px;
+  width:200px; 
+  margin-top: 351px;
+  text-align: center;
+  font-size: 34px;
+}
+
+
+
+.navbar--container{
+  display: flex;
+  justify-content: space-between; 
+  padding: 0 ;
+  position: fixed;
+  width: 100vw;
+  background-color:hsla(205, 100%, 45%, 0.607);
+
+}
+
+.navbar--img{
+  width:40px;
+  padding-left: 100px;
+
+}
+
+.navbar--items{
+  display: flex;
+  gap: 150px;
+  font-size: 18px;
+  padding-right:120px;
+}
+
+.navbar--list-items{
+  list-style: none;
+
+}
+
+
+
+
+.aboutMe-container{
+padding: 0 200px 0 200px;
+  padding-top: 70px;
+  background-color: white;
+  height: 100vh;
+  display: grid;
+grid-template-columns: 1fr;
+
+  grid-template-areas: 
+                "t t"
+                "info pik"
+                "pic in";
+}
+
+.aboutMe--title{
+  grid-area: t;
+  color: black;
+  margin: 0 auto;
+}
+
+.para1{
+  color: black;
+  grid-area: info;
+  width: 450px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.para2{
+  color: black;
+  grid-area: in;
+  width: 450px;
+  text-align: center;
+  font-size: 1.6rem;
+
+  
+}
+.techUsedImg{
+  margin:0 auto;
+  width: 400px;
+  grid-area: pic;
+  padding-right: 50px;
+  color: black;
+  display: grid;
+  grid-template-areas: "t  t"
+                       "js  rct"
+                       "hl  cs"        
+  ;
+
+}
+.meImageClass{
+  width: 300px;
+  padding-left: 50px;
+  border-radius: 50px;
+}
+.titleTech{
+  grid-area: t;
+  text-align: center;
+  color: black;
+  padding-right: 100px;
+}
+.htmlSvg {
+  grid-area: hl;
+  width: 100px;
+}
+
+.reactSvg{
+  grid-area: rct;
+  width: 100px;
+  padding-bottom: 25px;
+}
+
+.cssSvg{
+  grid-area: cs;
+  width: 100px;
+}
+ .jsSvg {
+  grid-area: js;
+  width: 80px;
+ }
+
+
+ .home--main {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+.projectContainer{
+  background-color: rgb(0, 187, 255);
+  padding:50px 0 50px 0;
+
+}
+.projectSectionTitle{
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.projectList{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  overflow: scroll;
+}
+.projectCard{
+  border-radius: 3px;
+  background-color: rgba(173, 216, 230, 0.443);
+  width: 300px;
+  height: 400px;
+}
+
+.portfolioSsImage{
+  width: 280px;
+  padding-left: 7px;
+  height:200px;
+}
+
+.projectTitle{
+  color: black;
+  text-align: center;
+}
+
+.projectInfo{
+  color: black;
+  text-align: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+  }
+
+  to {
+    margin-left: 0;
+
+  }
 }
