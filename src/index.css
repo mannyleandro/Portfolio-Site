@@ -196,7 +196,7 @@ grid-template-columns: 1fr;
   border-radius: 15px 15px 15px 15px;
   background-color: rgba(173, 216, 230, 0.443);
   width: 300px;
-  height: 415px;
+  height: 420px;
 }
 
 .portfolioSsImage{
@@ -216,11 +216,12 @@ grid-template-columns: 1fr;
 }
 
 .liveButton, .sourceButton{
-  color: white;
+  color: black;
   background-color: lightblue;
   border-radius: 5px;
   padding: 5px;
   margin-top:10px;
+  border: none;
 }
 
 
@@ -241,4 +242,15 @@ grid-template-columns: 1fr;
     margin-left: 0;
 
   }
+}
+
+@media screen and (max-width: 844px) {
+.aboutMe-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 }
