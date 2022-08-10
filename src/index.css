@@ -269,7 +269,7 @@ grid-template-columns: 1fr;
 
   }
 
-}
+
 
                                     /* Banner Mobile / NavBar  */
 
@@ -302,4 +302,6 @@ grid-template-columns: 1fr;
 .home--name{
   margin: 0 auto;
   padding-bottom: 50px;
+  width: 350px;
+}
 }
