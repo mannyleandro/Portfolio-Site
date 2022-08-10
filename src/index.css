@@ -245,12 +245,61 @@ grid-template-columns: 1fr;
 }
 
 @media screen and (max-width: 844px) {
-.aboutMe-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
+*{
+  /* border: 2px red solid; */
+
+}
+  .home-container{
+  width:100vw;
 }
 
+
+                                  /*About Me Container    */
+
+
+  .aboutMe-container{
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "title"
+                        "info"
+                        "pic"
+                        "in";
+    margin-left:0;
+
+  }
+
+}
+
+                                    /* Banner Mobile / NavBar  */
+
+
+
+
+.navbar--container{
+  display: none;
+}
+
+
+.home--image{
+  width:300px;
+  margin: 0 auto;
+}
+
+.home-container{
+  display:flex;
+  flex-direction: column;
+}
+.home--jobDesc{
+  margin:50px auto;
+  padding:0;
+}
+
+.home--main{
+  flex-direction: column;
+}
+
+.home--name{
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
