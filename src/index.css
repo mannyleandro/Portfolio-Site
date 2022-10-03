@@ -19,16 +19,17 @@ body{
   background-size: 160vh auto ;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 800px;
+  margin: 0 auto;
+  padding-right: 200px; 
 }
 
 .home--main{
   display: flex;
   padding-top:55px;
+  justify-content: center;
 }
-/* .home--main *{ */
-  /* border:2px red solid;  */
-/* } */
+
 
 .home--name{
   margin-left: 60px;
@@ -92,12 +93,14 @@ padding: 0 200px 0 200px;
   background-color: white;
   height: 100vh;
   display: grid;
+  max-width: 1000px;
+  max-height:1000px;
 grid-template-columns: 1fr;
-
   grid-template-areas: 
                 "t t"
                 "in pik"
                 "pic info";
+                margin: 0 auto;
 }
 
 .aboutMe--title{
@@ -190,7 +193,9 @@ grid-template-columns: 1fr;
   gap: 50px;
   justify-content: center;
   overflow: scroll;
-
+  padding: 0 50px;
+  padding-left: 400px;  
+  margin:auto 30px;  
 }
 .projectCard{
   border-radius: 15px 15px 15px 15px;
@@ -251,26 +256,44 @@ grid-template-columns: 1fr;
 }
   .home-container{
   width:100vw;
+  padding: 0;
 }
 
 
                                   /*About Me Container    */
-
-
   .aboutMe-container{
     display: none;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "title"
-                        "info"
-                        "pic"
-                        "in";
-    margin-left:0;
+    flex-direction: column;
+    margin:0;
+    border: 2px red solid;
 
   }
 
+  .aboutMe--title{
+    margin: 0 auto;
+    padding:0;
+    text-align: center;
+    border: 2px red solid;
+  }
+
+  .para1{
+    margin: 0 auto;
+    padding:0;
+  }
+
+  .para2{
+    margin: 0 auto;
+    padding: 0;
+  }
 
 
+  .techUsedImg{
+    display: none;
+  }
+
+  .meImageClass{
+    display: none;
+  }
                                     /* Banner Mobile / NavBar  */
 
 
@@ -304,4 +327,11 @@ grid-template-columns: 1fr;
   padding-bottom: 50px;
   width: 350px;
 }
+
+.aboutMe-container{
+  display: none;
+}
+
+
+
 }
